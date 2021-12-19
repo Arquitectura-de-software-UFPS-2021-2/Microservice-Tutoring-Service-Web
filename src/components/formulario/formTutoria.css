@@ -1,0 +1,53 @@
+.container-formulario{
+    width: 100%;
+}
+.form-first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.form-second-row{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+ textarea{
+    height: 200px;
+}
+.form-submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.submit-button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #931B2A;
+    gap: 10px;
+    color: white;
+    font-weight:bold;
+    border-radius: 5px;
+    box-shadow: 0px 6px 18px #00000034;
+    cursor: pointer;
+}
+.form-modal-button{
+    margin-top: 10px;
+    background-color: #931B2A;
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+}
+input{
+    height: 20px;
+}
