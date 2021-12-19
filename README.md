@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Tutoring microservice web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La siguiente es una aplicación de escritorio desarrollada en el lenguaje de programación de java bajo el paradigma de la programación orientada a objetos con la arquitectura de microservicios implementando la arquitecura Clean, cuyo principal objetivo es crear una serie de tutorias, registrarlas, crear temas y categorias y poder listarlas.  
 
-## Available Scripts
+Link del aplicativo desplegado: http://portal-educativo-tutorias.s3.amazonaws.com/index.html
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+1) Tener Node.js descargado en su máquina, con algun editor de texto cómo VsCode.
+2) Clonar el repositorio en su equipo: git clone https://github.com/Arquitectura-de-software-UFPS-2021-2/Microservice-Tutoring-Service-Web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3) Inicializar el proyecto mediante el script "npm start" en su consola. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Cómo desplegar?
 
-### `npm test`
+Para desplegar el aplicativo debe ingresar a la carpeta build, copiar todos los archivos que están dentro y subirlos a S3 o a la instancia donde quiera desplegarlos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+### Inicio
+#### Vista principal del software.
+![App Screenshot](https://i.imgur.com/nPcbLfl.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Listas
+#### Tabulación para verificar las tutorias activadas y terminadas
+![App Screenshot](https://i.imgur.com/J3iSwib.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Modales
+#### Modales para la creación de categorias y temas
+![App Screenshot](https://i.imgur.com/hBqn5i8.png)
+![App Screenshot](https://i.imgur.com/jElchYh.png)
+  
+# Detalles de desarrollo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Front-End:
 
-### `npm run eject`
+El desarrollo del frontend del aplicativo se implementó con la librería React.js, con la cual se estructuró las vistas y la lógica mediante componentes reactivos, lo cual caracteriza a esta librería frente a otros frameworks y tecnologías frontend basadas en Javascript.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Autores
+#### Jorge Omar Perez Peñaranda - [@JorgePerez](https://github.com/SHUNNIORR)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Diseños
+#### Brayan Steven Caicedo Florez- [@BrayamFlorez](https://github.com/BrayamFlorez)
