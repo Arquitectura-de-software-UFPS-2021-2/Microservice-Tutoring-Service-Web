@@ -3,6 +3,7 @@ import './App.css';
 import PublicarTutoria from './components/publicar/PublicarTutoria'; 
 import SidebarTutorias from './components/sidebartutorias/SidebarTutorias';
 import { iniciarSesion } from './components/services';
+import Tabs from './components/Tabs/Tabs';
 
 function App() {
     iniciarSesion()
@@ -12,8 +13,8 @@ function App() {
       <SidebarTutorias></SidebarTutorias>
       <PublicarTutoria></PublicarTutoria>
     </div>
-    <div className="App">
-      
+    <div className="listados">
+      <Tabs/>
     </div>
     </Fragment>
   );

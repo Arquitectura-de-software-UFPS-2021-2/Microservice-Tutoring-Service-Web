@@ -78,7 +78,9 @@ export const guardarTutoria = (tutoria) => {
         text: "Click para confirmar!",
         icon: "success",
         confirmButtonColor: "#931B2A",
-      })
+      }).then(() => {
+        window.location.reload();
+      });      
     })
     .catch((e) => {
       console.log(e);
